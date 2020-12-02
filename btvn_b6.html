@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>btvn nguyễn thị mến</title>
+</head>
+
+<body>
+    <div>
+        nhập vào số nguyên:<br><br>
+        <input type="text" id="input" value=""><br>
+        <button type="button" onclick="check()">OK</button>
+        <script>
+            function check() {
+                let a = document.getElementById('input').value;
+                let chon = parseInt(a);
+                switch (chon) {
+                    case 1: window.open('https://quantrimang.com');
+                        break;
+                    case 2: window.open('https://download.com.vn');
+                        break;
+                    case 3: window.open('https://vndoc.com');
+                        break;
+                    default: window.open('https://meta.vn');
+                        break;
+                }
+            }
+        </script>
+    </div>
+  
+</body>
+
+</html>
