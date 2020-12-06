@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HELLO</h1>
+    <script>
+        //bài 1:
+        let arr= [1,2,4,56,7,4]
+        let s=0;
+        arr.forEach(x=>s+=x);
+        console.log(s);
+        //bài 2:
+        document.getElementsByTagName('h1')[0].innerHTML='HELLO2';
+        document.getElementsByTagName('h1')[0].outerHTML= '<h2> HELLO2 </h2>';
+        document.getElementsByTagName('h2')[0].style.color = "red";
+
+
+    </script>
+</body>
+</html>
